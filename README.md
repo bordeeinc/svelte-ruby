@@ -29,6 +29,7 @@ Gemfile
 ```
 gem "svelte", "~>0.1"
 ```
+
 ---
 
 ## Development
@@ -42,28 +43,36 @@ The svelte-ruby gem ships with a working svelte source: `lib/svelte.js`. No need
 The rollup task transpiles the svelte source to a format that's compatible with Execjs. The result is written to `lib/svelte.js` with these commands: `cd svelte && rollup -c rollup/rollup.config.ruby.js`
 
 Copy config to svelte repo
+
 ```
 rake svelte:copy_config
 ```
+
 Transpile to Execjs compatible
+
 ```
 rake svelte:rollup
 ```
 
 ### Dev Requirements
-* [hoe](https://github.com/seattlerb/hoe)
+
+* [hoe](https://github.com/seattlerb/hoe) gem manager
 * [hoe-bundler] may need `gem install hoe-bundler` installation before using `rake bundler:gemfile`
-* [YARD](http://yardoc.org)
+* [YARD](http://yardoc.org) docs
 * [redcarpet](https://github.com/vmg/redcarpet) for yardoc
 * [npm rollup] is needed locally to regenerate the svelte source for Execjs
+   
    [hoe-bundler]: https://github.com/flavorjones/hoe-bundler
    [npm rollup]: https://www.npmjs.com/package/rollup
 
 ### Testing
+
 Tests written with [minitest]
+
 ```
 rake test
 ```
+ 
   [minitest]: https://github.com/seattlerb/minitest
 
 ### Contributing
@@ -112,6 +121,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 svelte-ruby is maintained and funded by Bordee Inc.
 The names and logos for Bordee are trademarks of [Bordee Inc.][bordeeinc]
+
   [bordeeinc]: http://bordee.com
 
 We love open source software!
