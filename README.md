@@ -76,15 +76,14 @@ Thank you, [contributors]!
 ### To Do
 
 * Finish command line `bin/svelte`
-* More tests
 
 ---
 
 ## License
 
-(The MIT License)
+MIT License
 
-Copyright (c) 2017 Bordee Inc. and SoAwesomeMan.com
+Copyright (c) 2017 Bordee Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -112,7 +111,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ![bordee](http://bordee.com/src/img/surf-with-bordee-github.png)
 
 svelte-ruby is maintained and funded by Bordee Inc.
-The names and logos for Bordee are trademarks of       [Bordee Inc.][bordeeinc]
+The names and logos for Bordee are trademarks of [Bordee Inc.][bordeeinc]
   [bordeeinc]: http://bordee.com
 
 We love open source software!
