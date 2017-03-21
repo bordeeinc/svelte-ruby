@@ -12,7 +12,7 @@ module Svelte
   # make all class methods
   extend self
 
-  # call method on sveltejs compiler
+  # call method on svelte js compiler
   #
   # @see https://github.com/sveltejs/svelte#options
   # @param method_str  [String]   svelte method
@@ -29,7 +29,7 @@ module Svelte
     context.call(method_str.strip, arg1, opts)
   end
 
-  # eval code in sveltjs env 
+  # eval code in svelte js env 
   #
   # @param code_str     [String]   svelte code
   # @param source_uri   [File,URI] sveltejs file (optional)
