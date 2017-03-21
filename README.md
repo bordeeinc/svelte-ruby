@@ -4,6 +4,8 @@ Ruby Gem wrapper for the [Svelte compiler][svelte_compiler]
 
   [svelte_compiler]: https://github.com/sveltejs/svelte
 
+[![Gem Version](https://badge.fury.io/rb/svelte-ruby.svg)](https://badge.fury.io/rb/svelte-ruby)
+
 ## Usage
 
 ```
