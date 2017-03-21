@@ -21,16 +21,14 @@ Svelte.exec_method('svelte.compile', '<h1>Hello {{name}}</h1>')
 Command Line
 
 ```
-gem install svelte
+gem install svelte-ruby
 ```
 
 Gemfile
 
 ```
-gem "svelte", "~>0.1"
+gem "svelte-ruby", "~>0.1"
 ```
-
----
 
 ## Development
 
@@ -61,7 +59,7 @@ rake svelte:rollup
 * [YARD](http://yardoc.org) docs
 * [redcarpet](https://github.com/vmg/redcarpet) for yardoc
 * [npm rollup] is needed locally to regenerate the svelte source for Execjs
-   
+
    [hoe-bundler]: https://github.com/flavorjones/hoe-bundler
    [npm rollup]: https://www.npmjs.com/package/rollup
 
@@ -72,7 +70,7 @@ Tests written with [minitest]
 ```
 rake test
 ```
- 
+
   [minitest]: https://github.com/seattlerb/minitest
 
 ### Contributing
@@ -85,8 +83,6 @@ Thank you, [contributors]!
 ### To Do
 
 * Finish command line `bin/svelte`
-
----
 
 ## License
 
@@ -112,8 +108,6 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
----
 
 ## About
 

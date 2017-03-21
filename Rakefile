@@ -15,7 +15,7 @@ Hoe.spec "svelte" do
   developer("So Awesome Man", "callme@1800aweso.me")
   license "MIT" # this should match the license in the README
 
-  self.name                 = 'svelte'
+  self.name                 = 'svelte-ruby'
   self.version              = Svelte::VERSION
   self.summary              = 'Ruby Gem wrapper for the Svelte compiler'
   self.email                = 'support@bordee.com'
