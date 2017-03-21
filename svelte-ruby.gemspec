@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = "support@bordee.com"
   s.executables = ["svelte"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.md", "History.txt"]
-  s.files = [".autotest", ".gitignore", ".gitmodules", ".hoeignore", "Gemfile", "History.txt", "Manifest.txt", "README.md", "Rakefile", "bin/svelte", "lib/core_ext/array/extract_options.rb", "lib/rollup/rollup.config.ruby.js", "lib/svelte.js", "lib/svelte.js.map", "lib/svelte.rb", "lib/svelte/version.rb", "lib/tasks/rollup.rake", "test/files/hello_world.html", "test/files/hello_world_output.txt", "test/files/hello_world_output_iife.txt", "test/test_svelte.rb"]
+  s.files = [".autotest", ".gitignore", ".gitmodules", ".hoeignore", "Gemfile", "History.txt", "LICENSE", "Manifest.txt", "README.md", "Rakefile", "bin/svelte", "lib/core_ext/array/extract_options.rb", "lib/rollup/rollup.config.ruby.js", "lib/svelte.js", "lib/svelte.js.map", "lib/svelte.rb", "lib/svelte/version.rb", "lib/tasks/svelte.rake", "svelte-ruby.gemspec", "test/files/hello_world.html", "test/files/hello_world_output.txt", "test/files/hello_world_output_iife.txt", "test/test_svelte.rb"]
   s.homepage = "https://github.com/bordeeinc/svelte-ruby"
   s.licenses = ["MIT"]
   s.rdoc_options = ["--title", "svelte-ruby", "--markup", "markdown", "--quiet"]
