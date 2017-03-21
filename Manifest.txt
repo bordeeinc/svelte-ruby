@@ -4,6 +4,7 @@
 .hoeignore
 Gemfile
 History.txt
+LICENSE
 Manifest.txt
 README.md
 Rakefile

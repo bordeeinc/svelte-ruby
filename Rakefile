@@ -15,7 +15,7 @@ Hoe.spec "svelte" do
   developer("So Awesome Man", "callme@1800aweso.me")
   license "MIT" # this should match the license in the README
 
-  self.name                 = 'svelte-ruby'
+  self.name                 = 'svelte'
   self.version              = Svelte::VERSION
   self.summary              = 'Ruby Gem wrapper for the Svelte compiler'
   self.email                = 'support@bordee.com'
@@ -28,7 +28,6 @@ Hoe.spec "svelte" do
   # third-party
   self.yard_title           = self.name
   self.yard_markup          = 'markdown'
-  #self.exclude              = Hoe::DEFAULT_CONFIG["exclude"] = /tmp$|CVS|TAGS|\.(svn|git|DS_Store)/
 
   self.extra_deps += [
     ['execjs',                     '2.7.0']
