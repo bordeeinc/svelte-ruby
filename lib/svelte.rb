@@ -4,7 +4,7 @@ require 'svelte/version'
 require 'core_ext/array/extract_options.rb' unless Array.method_defined?(:extract_options!)
 
 module Svelte
-  VERSION_JS  = '1.12.1'
+  VERSION_JS  = '3.38.2'
   LIB_DIR     = File.expand_path(File.dirname(__FILE__))
   SOURCE_URI  = IO.read(File.join(LIB_DIR, 'svelte.js'))
   CONTEXT     = ExecJS.compile(SOURCE_URI)
@@ -29,7 +29,7 @@ module Svelte
     context.call(method_str.strip, arg1, opts)
   end
 
-  # eval code in svelte js env 
+  # eval code in svelte js env
   #
   # @param code_str     [String]   svelte code
   # @param source_uri   [File,URI] sveltejs file (optional)
