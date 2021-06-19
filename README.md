@@ -40,29 +40,20 @@ https://svelte.technology
 
 The svelte-ruby gem ships with a working svelte source: `lib/svelte.js`. No need to regenerate it except for development or configuration.
 
-The rollup task transpiles the svelte source to a format that's compatible with Execjs. The result is written to `lib/svelte.js` with these commands: `cd svelte && rollup -c rollup/rollup.config.ruby.js`
-
-Copy config to svelte repo
+The rollup task transpiles the svelte source to a format that's compatible with Execjs. The result is written to `lib/svelte.js` with these commands:
 
 ```
-rake svelte:copy_config
+cp lib/rollup/rollup.config.ruby svelte
+cd svelte
+rollup -c rollup.config.ruby.js
 ```
 
-Transpile to Execjs compatible
-
-```
-rake svelte:rollup
-```
+You will also need to replace `self.performance.now()` in the generated JS with `null`;
 
 ### Dev Requirements
 
-* [hoe](https://github.com/seattlerb/hoe) gem manager
-* [hoe-bundler] may need `gem install hoe-bundler` installation before using `rake bundler:gemfile`
-* [YARD](http://yardoc.org) docs
-* [redcarpet](https://github.com/vmg/redcarpet) for yardoc
 * [npm rollup] is needed locally to regenerate the svelte source for Execjs
 
-   [hoe-bundler]: https://github.com/flavorjones/hoe-bundler
    [npm rollup]: https://www.npmjs.com/package/rollup
 
 ### Testing
@@ -70,7 +61,7 @@ rake svelte:rollup
 Tests written with [minitest]
 
 ```
-rake test
+bundle exec rake test
 ```
 
   [minitest]: https://github.com/seattlerb/minitest
